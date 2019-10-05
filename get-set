@@ -1,0 +1,20 @@
+var obj = {
+	'a': [
+		{
+			'b': {
+				'c': 3
+			}
+		}
+	]
+};
+
+// returns 3
+_.get(obj, 'a[0].b.c');
+
+// also returns 3
+_.get(obj, ['a', '0', 'b', 'c']);
+
+// returns "default"
+_.get(obj, 'a.b.c', 'default');
+---------------------------------
+_.set(obj,'a[0].b.c','dsfa')
