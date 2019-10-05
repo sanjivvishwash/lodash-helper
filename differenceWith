@@ -1,0 +1,10 @@
+const users = [
+      {name: 'bob', project: 1},
+      {name: 'sam', project: 2},
+      {name: 'ted', project: 3},
+    ];
+    const excludeProjects = [1,3];
+    debugger;
+    const result = _.differenceWith(users, excludeProjects, 
+      ({ project }, hotKey) => project === hotKey
+    );
