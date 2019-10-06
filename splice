@@ -2,6 +2,10 @@ obj['key'].splice(index, 1, replacedItem);  // replace item
 
 obj['key'].splice(index, 1)  // delete item
 
+===========================
+
+
+
 
 
 
