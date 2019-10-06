@@ -4,6 +4,3 @@ obj['key'].splice(index, 1)  // delete item
 
 
 
-
-
-
